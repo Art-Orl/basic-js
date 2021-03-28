@@ -1,14 +1,6 @@
 // const CustomError = require("../extensions/custom-error");
 str = "STRING";
-// options = {
-//   repeatTimes: 3,
-//   separator: '**',
-//   addition: 'PLUS',
-//   additionRepeatTimes: 3,
-//   additionSeparator: '00'
-// }
 
-// console.log(options.additionSeparator.length)
 module.exports = function repeater(str, options) {
   if (!options.repeatTimes) {
     options.repeatTimes = 1;
